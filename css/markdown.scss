@@ -1,0 +1,44 @@
+code, tt {
+  background-color: #f8f8f8;
+  border-radius: 3px;
+
+  @media #{$mobile-portrait} {
+    max-width: 100%;
+    display: inline-block;
+    word-wrap: break-word;
+  }
+  @media #{$mobile-landscape} {
+    max-width: 100%;
+    display: inline-block;
+    word-wrap: break-word;
+  }
+}
+
+pre code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent;
+}
+
+.highlight pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+
+pre code, pre tt {
+  background-color: transparent;
+  border: none;
+}
